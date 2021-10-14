@@ -43,3 +43,9 @@
   width: 30px;
   margin-right: 10px;
 }
+.gif {
+  position: absolute;
+  margin-top: -14rem;
+  min-width: 15rem;
+  max-width: 20rem;
+}

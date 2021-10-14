@@ -4,6 +4,7 @@ import { auth } from '../firebase';
 
 // Icons
 import google from "../assets/google.svg"
+import gif from "../assets/CornyReflectingCalf-size_restricted.gif"
 
 //Styles
 import styles from "./Login.module.css"
@@ -11,6 +12,7 @@ import styles from "./Login.module.css"
 const Login = () => {
     return (
         <div className={styles.loginPage}>
+            <img className={styles.gif} src={gif} alt='gif'/>
             <div className={styles.loginCard}>
                 <h2>Welcome to Manigram</h2>
                 <div 
