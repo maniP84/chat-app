@@ -19,7 +19,7 @@ const Login = () => {
                 className={styles.button}
                 onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
                 >
-                    <img src={google} alt="google"/> Sing in whis Google
+                    <img src={google} alt="google"/> Sing in with Google
                 </div>
             </div>
         </div>
